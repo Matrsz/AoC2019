@@ -1,5 +1,5 @@
 import Data.List 
-import Data.List.Split ( splitOn )
+import Data.List.Split (splitOn)
 
 direction :: [Char] -> (Char, Int)
 direction (x:xs) = (x, read xs ::Int)

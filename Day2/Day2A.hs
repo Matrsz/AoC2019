@@ -1,4 +1,4 @@
-import Data.List.Split ( splitOn )
+import Data.List.Split (splitOn)
 
 parseInt x = read x ::Int
 
