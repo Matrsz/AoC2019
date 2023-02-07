@@ -70,4 +70,6 @@ while allTargets != []
     allTargets = targets(station, asteroids)
 end
 
-vaporized[200] |> (x -> x[2]*100+x[1])
+println("Part A: $num")
+
+println("Part B: $(vaporized[200] |> (x -> x[2]*100+x[1]))")
